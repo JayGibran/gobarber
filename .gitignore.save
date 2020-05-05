@@ -1,5 +1,6 @@
 backend/node_modules
 backend/.vscode/launch.json
 backend/temp
+backend/tmp
 backend/tmp/*
 !backend/tmp/.gitkeep

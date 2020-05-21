@@ -3,3 +3,4 @@ backend/.vscode/launch.json
 backend/temp
 backend/tmp/*
 !backend/tmp/.gitkeep
+backend/coverage

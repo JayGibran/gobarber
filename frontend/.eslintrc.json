@@ -4,10 +4,11 @@
         "es6": true
     },
     "extends": [
-        "react-app",
+        "plugin:react/recommended",
         "airbnb",
         "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint"
+        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -29,10 +30,19 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "react/jsx-one-expression-per-line": "off",
+      "react/jsx-props-no-spreading" : "off",
+      "react/prop-types" : "off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "react/jsx-filename-extension": [1, {"extensions" : [".tsx"]}],
       "import/prefer-default-export": "off",
+      "@typescript-eslint/explicit-function-return-type" : [
+        "error",
+        {
+          "allowExpressions": true
+        }
+      ],
       "import/extensions" : [
         "error",
         "ignorePackages",

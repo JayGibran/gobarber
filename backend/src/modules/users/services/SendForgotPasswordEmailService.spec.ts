@@ -9,7 +9,7 @@ let fakeUserTokensRepository: FakeUserTokensRepository;
 let fakeMailProvider: FakeMailProvider;
 let sendForgotPasswordEmailService: SendForgotPasswordEmailService;
 
-describe('SendForgotPasswordEmail', () => {
+describe('SendForgotPasswordEmailService', () => {
   beforeEach(() => {
     fakeUserRepository = new FakeUserRepository();
     fakeUserTokensRepository = new FakeUserTokensRepository();
